@@ -1,0 +1,101 @@
+/*INFORMAÇÕES GERAIS*/
+
+.container {
+  padding: 10rem 7.5rem;
+  text-align: center;
+}
+
+.container > p {
+  margin-top: 1.5rem;
+}
+
+.container > button {
+  margin-top: 2rem;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0px;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.contact-title {
+  margin-top: 0.5rem;
+}
+
+/*INFORMAÇÕES section main*/
+
+#presentation-container {
+  padding: 2.5rem 7.5rem;
+  height: 100vh;
+  background-image: url(./Image/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*BACKGROUND*/
+
+#main-background {
+  width: 37.5rem;
+}
+
+.background-linear {
+  background: linear-gradient(180deg, white, #d9d9d9);
+}
+
+/*BUTTON*/
+
+button {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+  background-color: rgba(248, 70, 70, 1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(184, 174, 174, 0.664);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  background-color: rgb(223, 87, 87);
+}
+
+/*SEÇÃO QUALIDADE E PROCESSO*/
+#container-process {
+  margin-top: 7.5rem;
+  text-align: center;
+}
+
+#container-process h3 {
+  font-weight: 800;
+}
